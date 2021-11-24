@@ -13,5 +13,8 @@ module.exports = EngineAddon.extend({
     return false;
   },
 
-  lazyLoading: true,
+  lazyLoading: {
+    enabled: true,
+    includeRoutesInApplication: false
+  },
 });
